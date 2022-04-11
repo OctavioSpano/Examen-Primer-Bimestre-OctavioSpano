@@ -293,7 +293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   codigo: PP
-  cantDias: 3
+  cantDias: 5
 --- !u!4 &873356386
 Transform:
   m_ObjectHideFlags: 0

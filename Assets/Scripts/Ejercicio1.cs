@@ -9,7 +9,12 @@ public class Ejercicio1 : MonoBehaviour
     public int cantDias;
     void Start()
     {
-        if (codigo == "G")
+        if (cantDias < 3)
+        {
+            Debug.Log("No se puede realizar este cálculo");
+        }
+
+        else if (codigo == "G")
         {
             Debug.Log("Para ese período se necesitan " + (300 * cantDias));
             Debug.Log("Esta cantidad va a tener un costo de $" + (80 * 3 * cantDias));
@@ -36,9 +41,6 @@ public class Ejercicio1 : MonoBehaviour
         {
             Debug.Log("No se puede realizar este cálculo");
         }
-        else if (cantDias < 3)
-        {
-            Debug.Log("No se puede realizar este cálculo");
-        }
+        
     }
 }
